@@ -43,7 +43,7 @@
                           </a>
                         </div>
                       </div>
-                      
+
                       {% else %}
                           <a href ="{% url 'login' %}">
                           <button type="button"
@@ -52,7 +52,13 @@
                          </button>
                           
                      </a>
-
+                           
+                     
+                      <a href ="{% url 'signup' %}">
+                      <button type="button"
+                      class="btn btn-success ml-2">
+                      Sign Up
+                     </button>
 
                   {% endif %}
                 </div>
